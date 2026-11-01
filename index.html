@@ -22,9 +22,10 @@
             <a class="name" href="#top">Rahul Jain</a>
             <nav aria-label="Sections">
                 <a href="#shifts">Results</a>
+                <a href="#diagnose">Diagnose</a>
                 <a href="#work">Work</a>
-                <a href="#approach">Approach</a>
                 <a href="#experience">Experience</a>
+                <a href="#builds">Builds</a>
                 <a href="#writing">Writing</a>
                 <a class="nav-cta" href="#contact">Contact</a>
             </nav>
@@ -94,6 +95,58 @@
                     </li>
                 </ol>
             </div>
+        </section>
+
+        <section class="diagnose wrap" id="diagnose" aria-labelledby="diag-title">
+            <div class="head">
+                <h2 id="diag-title">Where is growth stuck?</h2>
+                <p>Tick what you're seeing in your business. You'll get the pattern I'd suspect, where I'd start and the closest piece of my work.</p>
+            </div>
+            <div class="diag">
+                <div class="symptoms" role="group" aria-label="Symptoms">
+                    <button type="button" aria-pressed="false" data-s="incent">Too many incentive or commission plans</button>
+                    <button type="button" aria-pressed="false" data-s="paid">Reps or partners can't explain how they get paid</button>
+                    <button type="button" aria-pressed="false" data-s="quote">Quotes or pricing approvals take days</button>
+                    <button type="button" aria-pressed="false" data-s="rfp">Proposals and RFPs take weeks</button>
+                    <button type="button" aria-pressed="false" data-s="custom">Every deal gets a custom offer</button>
+                    <button type="button" aria-pressed="false" data-s="handoff">Work stalls between teams</button>
+                    <button type="button" aria-pressed="false" data-s="regions">Each region runs the same process differently</button>
+                    <button type="button" aria-pressed="false" data-s="system">A new ERP or CRM is coming</button>
+                    <button type="button" aria-pressed="false" data-s="numbers">Leaders argue about whose numbers are right</button>
+                    <button type="button" aria-pressed="false" data-s="dash">Dashboards exist but nobody uses them</button>
+                    <button type="button" aria-pressed="false" data-s="central">Unclear what a shared services centre should own</button>
+                    <button type="button" aria-pressed="false" data-s="maturity">Business units are at very different maturity levels</button>
+                </div>
+                <div class="verdict" id="verdict" aria-live="polite">
+                    <div class="verdict-empty">
+                        <p class="verdict-label">Your read</p>
+                        <p class="verdict-name">Pick one or more symptoms</p>
+                        <p>Most businesses tick two or three. The pattern shows up here.</p>
+                    </div>
+                    <div class="verdict-full" hidden>
+                        <p class="verdict-label">Likely pattern</p>
+                        <p class="verdict-name" data-v="name"></p>
+                        <dl>
+                            <dt>Why it happens</dt>
+                            <dd data-v="cause"></dd>
+                            <dt>Where I'd start</dt>
+                            <dd data-v="start"></dd>
+                            <dt>Closest work</dt>
+                            <dd><a data-v="case" href="#work"></a></dd>
+                        </dl>
+                        <p class="verdict-also" data-v="also" hidden></p>
+                        <div class="verdict-actions">
+                            <a class="btn btn-solid" data-v="mail" href="mailto:rjjainrahul97@gmail.com">Talk it through</a>
+                            <button type="button" class="btn btn-line" data-v="reset">Start again</button>
+                        </div>
+                    </div>
+                    <p class="verdict-note">A rough read from patterns in my work, not a diagnosis. Nothing you tick is stored or sent.</p>
+                </div>
+            </div>
+            <a class="diag-peek" href="#verdict" hidden>
+                <span>Your read</span>
+                <strong data-v="peek"></strong>
+            </a>
         </section>
 
         <section class="work wrap" id="work" aria-labelledby="work-title">
@@ -305,17 +358,58 @@
                     <span class="when">Before</span>
                     <div>
                         <h3>Accenture Strategy</h3>
-                        <p>GTM, sales transformation, process and operating model design. Included a chief of staff role in a cloud consulting business.</p>
+                        <p>GTM, sales transformation, process and operating model design. Built a GBS roadmap spanning 40 business units in 35 countries, and served as chief of staff in a cloud consulting business.</p>
                     </div>
                 </li>
                 <li>
                     <span class="when">Start</span>
                     <div>
                         <h3>HP Inc.</h3>
-                        <p>Account growth, product management, sales analytics and incentive design, owning country-level commercial numbers.</p>
+                        <p>Strategic account manager owning $8M+ in yearly revenue. Account growth, product transitions, sales analytics and incentive design.</p>
                     </div>
                 </li>
             </ol>
+
+            <div class="recognition">
+                <div>
+                    <h3>Published case study</h3>
+                    <p><a href="https://www.iveypublishing.ca/s/product/moshi-looks-to-popularize-fusion-fare-in-dubai/01t5c00000CwlvwAAB" target="_blank" rel="noreferrer">Moshi Looks to Popularize Fusion Fare in Dubai</a></p>
+                    <p class="small">Co-authored with Sandeep Puri and Kirti Khanzode. Ivey Publishing, 2016. Also distributed by <a href="https://hbsp.harvard.edu/product/W16478-PDF-ENG" target="_blank" rel="noreferrer">Harvard Business Publishing</a>.</p>
+                </div>
+                <div>
+                    <h3>Recognition</h3>
+                    <ul>
+                        <li>Accenture practice award, Above and Beyond, three years running (2022 to 2024)</li>
+                        <li>HP Top Gun, picked from 50 enterprise account managers (2019)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>PGDM, Marketing, IMT Ghaziabad</li>
+                        <li>B.Tech, SRM University, Chennai</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="builds wrap" id="builds" aria-labelledby="builds-title">
+            <div class="head">
+                <h2 id="builds-title">Built on the side</h2>
+                <p>I run my own work on AI before advising anyone else on it. Both of these are private, and I'm happy to walk through them.</p>
+            </div>
+            <div class="build-list">
+                <article>
+                    <h3>A personal AI operating system</h3>
+                    <p>ChatGPT, Claude and Codex share one set of skills and one tracker. All three follow the same instructions and write back to the same Google Sheet.</p>
+                    <p class="stack">Claude plugins and skills, Google Sheets, GitHub</p>
+                </article>
+                <article>
+                    <h3>A news-to-thesis pipeline</h3>
+                    <p>Apps Script collects new items from the sources I track into a review sheet. Each item I keep is tagged to a running thesis. That way my posts connect developments over months, not one headline.</p>
+                    <p class="stack">Google Apps Script, RSS, Google Sheets</p>
+                </article>
+            </div>
         </section>
 
         <section class="writing" id="writing" aria-labelledby="writing-title">
