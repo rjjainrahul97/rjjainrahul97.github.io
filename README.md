@@ -1,15 +1,17 @@
-# Rahul Jain — Grenade preview
+# Rahul Jain — Personal website
 
-Personal site. Production remains at https://rjjainrahul97.github.io/.
+Personal site, published from the `main` branch at https://rjjainrahul97.github.io/.
 
-## Three views
+## Maintained versions
 
-- Main (live): https://rjjainrahul97.github.io/
-- Existing test branch (`preview-diagnostic`): https://raw.githack.com/rjjainrahul97/rjjainrahul97.github.io/preview-diagnostic/index.html
-- New test branch (`preview-grenade`): https://raw.githack.com/rjjainrahul97/rjjainrahul97.github.io/preview-grenade/index.html
-- Comparison page on this branch: https://raw.githack.com/rjjainrahul97/rjjainrahul97.github.io/preview-grenade/review/index.html
+- Current website (version 3, Grenade redesign): https://rjjainrahul97.github.io/
+- Version directory: https://rjjainrahul97.github.io/review/
+- Version 1 archive (original): https://rjjainrahul97.github.io/review/main/
+- Version 2 archive (growth diagnostic): https://rjjainrahul97.github.io/review/test/
 
-The test links use the third-party raw.githack.com development preview service, not GitHub Pages deployments. It serves public branch HTML with relative CSS, JavaScript and images. Previews may be cached. The `review/main/` and `review/test/` directories are unchanged snapshots of main at ac982e1 and the existing test at 91f06cc.
+All three views are hosted together by GitHub Pages. The footer links to the version directory; each archive links back to the current website and all versions. The archives carry `noindex,follow` so they remain accessible without competing with the current page in search.
+
+The archived content comes from main at `ac982e1` and `preview-diagnostic` at `91f06cc`, with only archive navigation and indexing metadata added. Their original branches remain available. Keep archive content stable when editing the current website. Before any future redesign replaces the current version, preserve it as a new numbered archive and update the directory.
 
 ## Design
 
@@ -20,7 +22,7 @@ Inspired by https://github.com/rubenhassid1/grenade: evidence on the first scree
 - Five challenge choices open the corresponding case; there is no diagnostic scoring or collection of visitor inputs.
 - The latest newsletter name, recognition, education and side builds come from the existing test branch.
 - Light/dark choice persists locally where browser storage is available. Without JavaScript, content, case disclosures, navigation and contact links work.
-- This preview has `noindex,follow`; remove that preview directive if promoting it to the main website.
+- The current homepage has a production canonical URL and is indexable. Only archive pages and the version directory use `noindex`.
 
 ## Local review
 
